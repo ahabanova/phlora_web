@@ -1,0 +1,518 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.header-intro {
+    color: white;
+    background: rgb(211,192,221);
+    background: linear-gradient(0deg, rgba(211,192,221,1) 0%, rgba(109,48,141,1) 100%);
+    padding: 0 20px 60px 20px;
+    position: relative;
+}
+
+.menu_item,
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts_mail {
+    padding-bottom: 10px;
+    width: 100%;
+    min-width: 172px;
+}
+
+.contacts_tel {
+    width: 100%;
+    min-width: 150px;;
+}
+
+.header-intro a {
+  display: inline-block;
+}
+
+.menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_suites {
+    min-width: 76px;
+}
+
+.menu_surroundings {
+    text-align: center;
+    min-width: 42px;
+}
+
+.menu_contact {
+    text-align: right;
+    min-width: 57px;
+}
+
+.contacts {
+    margin: 10px 0;
+}
+
+.zmdi {
+    margin: 5px;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block; 
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 30px ;
+    width: 172px;
+}
+
+.header_button {
+    color: #6d308d;
+    background-color: white;
+    height: 44px;
+}
+
+.logo-background {
+    background-color: white;
+    width: 222px;
+    border-radius: 0 0 20px 20px;
+    padding: 20px 30px 20px 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.button-transparent {
+    color: white;
+    border: 2px solid white;
+}
+
+.scroll-down-icon {
+    background-color: #6d308d;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 9px;
+    position: absolute;
+    left: calc(50vw - 20px);
+    bottom: 20px;
+}
+
+.suites {
+    padding: 0 20px 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #6d308d;
+    margin: 0;
+    padding: 60px 0 30px 0;
+}
+
+.button-transparent:hover {
+    color: #6d308d;
+    background-color: white;
+    transition: 0.2s;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.suites-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.suite {
+    min-height: 280px;
+    width: 100%;
+    color: white;
+    padding: 0 20px;
+    position: relative;
+}
+
+.suite-hover:hover {
+    background-color: rgba(109, 48, 141, 0.6);
+    height: 100%;
+    margin: 0 -20px;
+    padding: 0 20px;
+    transition: background-color 0.2s;
+}
+
+.suite_content {
+    position: absolute;
+    bottom: 0;
+    max-width: calc(100% - 40px);
+    padding-bottom: 20px;
+}
+
+.suites_begonia {
+    background: #6d308d url(images/apartman_begonia.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+.suites_pelargonium {
+    background: #6d308d url(images/apartman_pelargonium.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+.suites_viola {
+    background: #6d308d url(images/apartman_viola.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+.reservation-surroundings {
+    background-color: #edeaee;
+}
+
+.reservation-surroundings_first-sentence {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.reservation-surroundings_button {
+    color: white;
+    background-color: #568946 ;
+}
+
+.reservation,
+.surroundings {
+    padding: 0 20px 20px 20px;
+}
+
+.reservation_img,
+.surroundings_img {
+    width: 100%;
+    display: block;
+}
+
+.gallery {
+    padding: 0 20px 40px 20px;
+}
+
+.gallery h2 {
+    font-weight: bold;
+}
+
+.gallery img {
+    height: calc(100vw - 40px);
+}
+
+.gallery-cell {
+    padding-right: 2px;
+}
+
+.footer {
+    color: white;
+    background-color: #4e325c ;
+    font-size: 14px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer_navigation {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    min-width: 280px;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.footer_navigation_item {
+    text-decoration: none;
+}
+
+.footer_navigation_item-terms {
+    min-width: 130px;
+    text-align: center;
+}
+
+.footer_navigation_item-gdpr {
+    text-align: right;
+}
+
+.facebook-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footer_webinfo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer_webinfo_copyright {
+    min-width: 145px;
+}
+
+.footer_webinfo_author {
+    min-width: 185px;
+    text-align: right;
+}
+
+.footer_facebook {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button.flickity-button {
+    background: #568946;
+    color: white;
+    width: 40px;
+    height: 40px;
+  }
+
+button.flickity-button:hover {
+    background: #568946;
+  }
+
+button.flickity-button.previous {
+    left: -10px;
+}
+
+button.flickity-button.next {
+    right: -10px;
+}
+
+@media (min-width: 380px) {
+    .contacts_mail {
+        width: 172px;
+    }
+
+    .contacts_tel {
+        width: 136px;
+    }
+
+    .footer {
+        justify-content: space-between;
+    }
+    
+    .footer_navigation{
+        width: 75%;
+    }
+
+    .footer_facebook {
+        width: 40px;
+    }
+}
+
+@media (min-width: 600px) {
+    .suites,
+    .gallery {
+        padding: 0 60px 60px 60px;
+    }
+
+    .reservation,
+    .surroundings {
+        padding: 0 60px 60px 60px;
+    }
+
+    .footer {
+        padding: 20px 60px;
+    }
+
+    .footer_navigation{
+        width: 60%;
+    }
+
+    .footer_facebook {
+        width: 40%;
+    }
+
+    button.flickity-button.previous {
+        left: -20px;
+    }
+    
+    button.flickity-button.next {
+        right: -20px;
+    }
+
+    .gallery img {
+        height: calc(100vw - 120px);
+    }
+}
+
+@media (min-width: 650px) {
+    .header_button {
+        width: 140px;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+    .menu {
+        width: 55%;
+    }
+
+    .header-intro {
+        background-image: linear-gradient(0deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.2) 100%), url(images/intro_foto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0 60px 60px 60px;
+    }
+
+    .intro_left {
+        background-color: rgba(109,48,141,0.7);
+        margin: -250px -60px -84px -60px;
+        padding: 250px 60px 60px 60px;
+    }
+
+    .gallery img {
+        height: calc((100vw - 120px) / 2 );
+    }
+}
+
+@media (min-width: 900px) {
+    .suites-flex {
+        flex-wrap: nowrap;
+    }
+
+    .reservation-surroundings h2 {
+        text-align: left;
+    }
+
+    .reservation-surroundings {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .reservation,
+    .surroundings {
+        width: 50%;
+    }
+
+    .reservation_img,
+    .surroundings_img {
+        display: none;
+    }
+
+    .reservation_new-img {
+        background-image: url(images/rezervace.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .surroundings_new-img {
+        background-image: url(images/okoli.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .gallery img {
+        height: calc((100vw - 120px) / 3 );
+    }
+}
+
+@media (min-width: 950px) {
+    .logo {
+        width: 28%;
+        align-self: flex-start;
+    }
+
+    .menu {
+        width: 30%;
+    }
+
+    .contacts {
+        min-width: 172px;
+        width: 172px;
+        margin-right: 0;
+    }
+
+    .button-background {
+        width: 140px;
+    }
+
+    .contacts_mail {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .intro_left {   
+        width: 50vw;
+        padding-right: 60px;
+    }
+    
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .logo {
+        width: 21%;
+    }
+
+    .contacts_mail {
+        width: 172px;
+    }
+
+    .contacts_tel {
+        width: 136px;;
+    }
+
+    .contacts {
+        width: 328px;
+    }
+
+    .gallery img {
+        height: calc((100vw - 120px) / 4 );
+    }
+}

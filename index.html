@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phlora</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header-intro">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-background"><img src="images/logo.svg" alt="Phlora logo"></div>
+            </div>
+            <menu class="menu">
+                <a class="menu_item menu_suites" href="#">Apartmány</a>
+                <a class="menu_item menu_surroundings" href="#">Okolí</a>
+                <a class="menu_item menu_contact" href="#">Kontakt</a>
+            </menu>
+            <div class="contacts">
+                <a href="mailto:phlora@plantana.cz" class="contacts_mail"><i class="zmdi zmdi-email"></i> phlora@plantana.cz</a>
+                <a href="tel:+420602386539" class="contacts_tel"><i class="zmdi zmdi-smartphone-android"></i>+420 602 386 539</a>
+            </div>
+            <div class="button-background"><a class="button header_button" href="#">Volné termíny</a></div>
+        </header>
+        
+        <div class="intro">
+            <div class="intro_left">
+                <h1>Apartmánový dům v&nbsp;krásném prostředí Lysic</h1>
+                <p>Nabízíme ubytování v <strong>moderně vybavených</strong> apartmánech <strong>v krásném prostředí městečka Lysice</strong>
+                    a Přírodního parku Lysicko. Nachází se přímo naproti <strong>zámku</strong> a <strong>zámecké zahrady</strong>, nedaleko <strong>koupaliště</strong>,
+                    kousek od oblíbeného <strong>letního kina</strong>, co by kamenem dohodil od náměstíčka s <strong>restauracemi</strong>, přímo na
+                    <strong>turistické</strong> a <strong>cykloturistické stezce.</strong></p>
+                <p>To vše výborně dostupné ze všech směrů - 25 minut jízdy z <strong>Brna</strong>, 70 minut z <strong>Olomouce</strong> nebo 45 minut ze <strong>Svitav</strong>.</p>
+                <p>Potřebujete si <strong>odpočinout</strong> a nabrat nové síly <strong>v klidném prostředí</strong>? Nebo chcete <strong>aktivně strávit</strong>
+                    dovolenou s dětmi? Rádi byste navštívili některý ze <strong>šesti zámků</strong> v okruhu 10 km, pivovar, jeskyně,
+                    rozhledny anebo pštrosí farmu? To vše můžete najít u nás.</p>
+                <a class="button button-transparent" href="#">Více informací</a>
+            </div>
+            <a href="#suites"><img class="scroll-down-icon" src="images/scroll-down.svg" alt=""></a>  
+        </div>
+    </div>
+
+    <main>
+        <div class="suites" id="suites">
+            <h2>Naše apartmány</h2>
+            <div class="suites-flex">
+                <div class="suite suites_begonia">
+                    <div class="suite-hover">
+                        <div class="suite_content">
+                            <h3>Apartmán BEGONIA</h3>
+                            <p><strong>3-pokojový</strong> apartmán s vlastním kuchyňským koutem, koupelnou a&nbsp;WC.</p>
+                            <a class="button button-transparent suites_button" href="#">Více informací</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="suite suites_pelargonium">
+                    <div class="suite-hover">
+                        <div class="suite_content">
+                            <h3>Apartmán PELARGONIUM</h3>
+                            <p><strong>3-pokojový</strong> apartmán s vlastním kuchyňským koutem, koupelnou a&nbsp;WC.</p>
+                            <a class="button button-transparent suites_button" href="#">Více informací</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="suite suites_viola">
+                    <div class="suite-hover">
+                        <div class="suite_content">
+                            <h3>Apartmán VIOLA</h3>
+                            <p><strong>3-pokojový</strong> apartmán s vlastním kuchyňským koutem, koupelnou a&nbsp;WC.</p>
+                            <a class="button button-transparent suites_button" href="#">Více informací</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reservation-surroundings">
+                <div class="reservation">
+                    <h2>Rezervace apartmánu</h2>
+                    <p class="reservation-surroundings_first-sentence">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                    </p>
+                    <a class="button reservation-surroundings_button" href="#">Zamluvit termín</a>
+                </div>
+
+                <img class="reservation_img" src="images/rezervace.jpg" alt="Rezervace">
+                <div class="reservation_new-img"></div>
+                <div class="surroundings_new-img"></div>
+
+                <div class="surroundings">
+                    <h2>Co najdete v okolí</h2>
+                    <p class="reservation-surroundings_first-sentence">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                    </p>
+                    <a class="button reservation-surroundings_button" href="#">Zjistit více</a>
+                </div>
+                
+                <img class="surroundings_img" src="images/okoli.jpg" alt="Zámek">
+        </div>
+
+        <div class="gallery">
+            <h2>Fotogalerie</h2>
+            <div class="main-gallery">
+                <div class="gallery-cell"><img src="images/fotogalerie-1_vyrez.jpg" alt="Apartmán"></div>
+                <div class="gallery-cell"><img src="images/fotogalerie-2_vyrez.jpg" alt="Apartmán"></div>
+                <div class="gallery-cell"><img src="images/fotogalerie-3_vyrez.jpg" alt="Apartmánový dům"></div>
+                <div class="gallery-cell"><img src="images/fotogalerie-4_vyrez.jpg" alt="Apartmán"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer_navigation">
+            <a class="footer_navigation_item footer_navigation_item-contact" href="">Kontakt</a>
+            <a class="footer_navigation_item footer_navigation_item-terms" href="">Obchodní podmínky</a>
+            <a class="footer_navigation_item footer_navigation_item-gdpr" href="">GDPR</a>
+        </ul>
+
+        <div class="footer_facebook">
+            <a href="#"><img class="facebook-icon" src="images/fb.svg" alt="Facebook"></a>
+        </div>
+        
+        <div class="footer_webinfo">
+            <p class="footer_webinfo_copyright">&copy 2021 PLANTANA s.r.o.</p>
+            <p class="footer_webinfo_author">Váš <a href="#">web na míru</a> — PUXdesign.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $('.main-gallery').flickity({
+            // options
+            cellAlign: 'left',
+            contain: true,
+            pageDots: false,
+            wrapAround: true
+            });
+        });
+    </script>
+</body>
+</html>
